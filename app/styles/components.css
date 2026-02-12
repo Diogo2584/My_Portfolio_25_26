@@ -1,0 +1,41 @@
+@layer components {
+    .myButton{
+        background-color: #C1121F;
+        border-radius: 30px;
+        width:209px;
+        height: 50px;
+        text-align: start;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    .button_danger{
+        background-color: #DDA15E;
+        border-radius: 30px;
+        width:209px;
+        height: 50px;
+        text-align: start;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    .navbar{
+        background-color: #DDA15E;
+        height: 82px;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .navbar-menu{
+        display: flex;
+        gap: 20px;
+    }
+    .footer{
+        background-color: #283618;
+        color:#FDF0D5;
+        height: 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

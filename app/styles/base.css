@@ -1,0 +1,22 @@
+@layer base{
+    .heading1{
+        font-size:64px;
+        font-family: "Fauna One";
+    }
+    .heading2{
+        font-size:48px;
+        font-family: "Inclusive Sans";
+    }
+    .heading3{
+        font-size:40px;
+        font-family: "Inclusive Sans";
+    }
+    .heading4{
+        font-size:32px;
+        font-family: "Inclusive Sans";
+    }
+    .paragraph{
+        font-size:16px;
+        font-family: "Inclusive Sans";
+    }
+}
