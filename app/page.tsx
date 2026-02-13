@@ -7,24 +7,23 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
    <div className="flex-col bg-[#FDF0D5] px-12">
     <div className="flex justify-center">
     
   <Image src="/image 11.png" alt="Profile Picture" width={1253} height={330} />  </div>
     <h1 className="flex justify-center text-4xl"> About Me </h1>
-    <p className="text-center">My name is Diogo Penafiel, I am a motivated CS student with experience in various coding languages, such as Java and React. I am willing gto apply myself in any type of problem and am willing to find solutions to modern day problems. I am very passionate about coding and find it to be something I enjoy and can use to connect with others.</p>
+    <p className="text-center">My name is Diogo Penafiel, I am a motivated CS student with experience in various coding languages, such as Java and React. I am willing to apply myself in any type of problem and am willing to find solutions to modern day problems. I am very passionate about coding and find it to be something I enjoy and can use to connect with others.</p>
     <div className= "flex justify-center gap-12 ">
-    <div className="bg-[#BC6C25] w-96 rounded-lg">
-      <h1 className="text-4xl text-center text-[#FDF0D5]"> What I do</h1>
+    <div className="bg-[#BC6C25] w-96 rounded-[30px]">
+      <h1 className="heading1 text-4xl text-center text-[#FDF0D5] px-24 drop-shadow-md"> What I do</h1>
       <ul className="list-disc text-[#283618] px-12">
-        <li> Find front end business website problems </li>
-        <li> Create solutions for the web through redesign </li>
-        <li> Develop improved version of web page </li>
+        <li className="paragraph"> Find front end business website problems </li>
+        <li className="paragraph"> Create solutions for the web through redesign </li>
+        <li className="paragraph"> Develop improved version of web page </li>
       </ul>
     </div>
-    <div className="bg-[#DDA15E] w-96 rounded-lg flex-col justify-center">
-      <h1 className="text-4xl text-center text-[#FDF0D5]"> Skills</h1>
+    <div className="bg-[#DDA15E] w-96 rounded-[30px] flex-col justify-center">
+      <h1 className="heading1 text-4xl text-center text-[#FDF0D5] drop-shadow-xl"> Skills</h1>
       <ul className="list-disc text-[#283618] px-12">
         <li> Can use Figma </li>
         <li> Created projects on Visual Studio Code </li>
@@ -32,10 +31,9 @@ export default function Home() {
       </ul>
     </div>
     </div>
-    <Footer />
     <div>
       <p> This is my stylesheet </p>
-      <h1 className="heading1"> This is my Heading 1</h1>
+      <h1 className="heading1 "> This is my Heading 1</h1>
       <h2 className="heading2"> This is my Heading 2</h2>
       <h3 className="heading3"> This is my Heading 3</h3>
       <h4 className="heading4"> This is my Heading 4</h4>
@@ -47,6 +45,7 @@ export default function Home() {
       <ButtonDanger text={"Don't click me"}/>
       <Project_card title={"Project 1"} date={"2023"} info={"This is a project I made in 2023"} src={"/image 11.png"} alt={"Project Image"}/>
       <Navbar />
+      <Footer />
     </div>
     </div>
    </div>

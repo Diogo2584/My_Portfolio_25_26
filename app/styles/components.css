@@ -18,13 +18,15 @@
         transition: background-color 0.3s ease;
     }
     .navbar{
-        background-color: #DDA15E;
+        background-color: #606C38;
+        color: #FEFAE0;
         height: 82px;
         display: flex;
         flex-direction:row;
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
+        margin-bottom: 10px;
     }
     .navbar-menu{
         display: flex;
@@ -35,7 +37,13 @@
         color:#FDF0D5;
         height: 82px;
         display: flex;
+        flex-direction:row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .footer-menu{
+        display: flex;
+        gap: 20px;
     }
 }
