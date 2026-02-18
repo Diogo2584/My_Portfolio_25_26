@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <div>
    <div className="flex-col bg-[#FDF0D5] px-12">
-    <div className="flex justify-center">
-    
-  <Image src="/image 11.png" alt="Profile Picture" width={1253} height={330} />  </div>
     <h1 className="flex justify-center text-4xl heading1 pt-8 pb-4"> About Me </h1>
     <div className="flex justify-center">
     <p className="text-center pb-10 w-255">My name is Diogo Penafiel, I am a motivated CS student with experience in various coding languages, such as Java and React. I am willing to apply myself in any type of problem and am willing to find solutions to modern day problems. I am very passionate about coding and find it to be something I enjoy and can use to connect with others.</p>
