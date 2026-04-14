@@ -12,18 +12,18 @@ export default function Home() {
     <div className="flex justify-center">
     <p className="text-center pb-10 w-255">My name is Diogo Penafiel, I am a motivated CS student with experience in various coding languages, such as Java and React. I am willing to apply myself in any type of problem and am willing to find solutions to modern day problems. I am very passionate about coding and find it to be something I enjoy and can use to connect with others.</p>
     </div>
-    <div className= "flex justify-center gap-100 ">
-    <div className="bg-[#BC6C25] w-104 h-67 rounded-[30px] mb-15">
-      <h1 className="heading1 text-4xl text-center text-[#FDF0D5] px-24 drop-shadow-md pt-5 pb-6"> What I do</h1>
-      <ul className="list-disc text-[#283618] px-10">
+    <div className= "flex flex-col lg:flex-row justify-center gap-4 lg:gap-100 ">
+    <div className="bg-[#BC6C25] w-80 lg:w-104 h-50 lg:h-67 rounded-[30px] mb-15">
+      <h1 className="heading1 text-2xl lg:text-4xl text-center text-[#FDF0D5] px-6 lg:px-24 drop-shadow-md pt-5 pb-6"> What I do</h1>
+      <ul className="list-disc text-[#283618] px-6 lg:px-10">
         <li className="pb-4"> Find front end business website problems </li>
         <li className="pb-4"> Create solutions for the web through redesign </li>
         <li className="pb-4"> Develop improved version of web page </li>
       </ul>
     </div>
-    <div className="bg-[#DDA15E] w-104 h-67 rounded-[30px] mb-15">
-      <h1 className="heading1 text-4xl text-center text-[#FDF0D5] drop-shadow-xl pt-5 pb-6"> Skills</h1>
-      <ul className="list-disc text-[#283618] px-12">
+    <div className="bg-[#DDA15E] w-80 lg:w-104 h-50 lg:h-67 rounded-[30px] mb-15">
+      <h1 className="heading1 text-2xl lg:text-4xl text-center text-[#FDF0D5] drop-shadow-xl pt-5 pb-6"> Skills</h1>
+      <ul className="list-disc text-[#283618] px-6 lg:px-12">
         <li className="pb-4"> Can use Figma </li>
         <li className="pb-4"> Created projects on Visual Studio Code </li>
         <li className="pb-4"> Proficient in HTML/CSS </li>
