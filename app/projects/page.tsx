@@ -51,8 +51,6 @@ export default function Projects() {
                         src={project.src}
                         alt={project.alt}
                         link={project.link}
-                        width={project.width}
-                        height={project.height}
                     />
                 ))}
             </div>
