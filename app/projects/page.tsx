@@ -24,7 +24,7 @@ export default function Projects() {
             info: "A midterm project where we replicated the Tea Cozy website using HTML, CSS, and JavaScript. It includes a responsive design and interactive features.",
             src: "/image 16.png",
             alt: "Project 3 Image",
-            link: "https://github.com/Diogo2584/DP-Midterm/tree/main/DPMidterm" // Replace with actual link
+            link: "midterm-dp.netlify.app" 
         },
         {
             title: "Ourblooms Website",
