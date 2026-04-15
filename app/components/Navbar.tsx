@@ -5,19 +5,19 @@ export default function Navbar() {
             Diogo Penafiel
             <ul className="navbar-menu">
             <li className="navbar-item">
-                <Link href="/" className="navbar-link">
+                <a href="/" className="navbar-link hover:underline" >
                 About Me
-                </Link>
+                </a>
             </li>
             <li className="navbar-item">
-                <Link href="/projects" className="navbar-link">
+                <a href="/projects" className="navbar-link hover:underline">
                 Projects
-                </Link>
+                </a>
             </li>
             <li className="navbar-item">
-                <Link href="/contact_me" className="navbar-link">
+                <a href="/contact_me" className="navbar-link hover:underline" >
                 Contact
-                </Link>
+                </a>
             </li>
             </ul>
         </nav>
